@@ -2,7 +2,7 @@
 k8sversion=v1.8.11
 
 # Get the kubectl binary.
-curl -LO https://storage.googleapis.com/kubernetes-release/release/$k8sversion/bin/darwin/amd64/kubectl
+curl -LO https://storage.googleapis.com/kubernetes-release/release/$k8sversion/bin/linux/amd64/kubectl
 
 # Make the kubectl binary executable.
 chmod +x ./kubectl
